@@ -6,3 +6,10 @@
 	color: white;
 	cursor: pointer;
 }
+body
+{
+    background: url('http://static.ladepeche.fr/content/media/image/zoom/2011/12/01/201112011096.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
