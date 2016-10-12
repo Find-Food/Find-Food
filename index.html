@@ -10,7 +10,8 @@
     <title>Find Food</title>
     
     <link href="css/bootstrap.css" rel="stylesheet" />
-	<link href="css/coming-sssoon.css" rel="stylesheet" />    
+	<link href="css/coming-sssoon.css" rel="stylesheet" />  
+	<link href="css/style.css" rel="stylesheet" />  
     
     <!--     Fonts     -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
@@ -90,7 +91,10 @@
 <!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
 
 	<div class="container col-lg-4 col-lg-offset-4"><h1 class="logo" style="font-size: 100px">Find Food</h1></div>
-    <div class="container col-lg-6 col-sm-6 col-md-6 col-xs-6">
+	<div id="magasin-bouton" class="container col-lg-6 col-sm-6 col-md-6 col-xs-6">
+	<button onclick="showMagasin()">Je suis un magasin</button>
+	</div>
+    <div id="magasin" class="container col-lg-6 col-sm-6 col-md-6 col-xs-6">
         <h1 class="logo cursive">
             Trop de rayons vides = parkings vides
         </h1>
@@ -115,7 +119,7 @@
         </div>
     </div>
 	
-	<div class="container col-lg-6 col-sm-6 col-md-6 col-xs-6">
+	<div id="client" class="container col-lg-6 col-sm-6 col-md-6 col-xs-6">
         <h1 class="logo cursive">
             Gagne de l'argent, en te plaignant d'un produit manquant !
         </h1>
@@ -148,5 +152,6 @@
  </body>
    <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+   <script src="js/choix.js" type="text/javascript"></script>
 
 </html>
