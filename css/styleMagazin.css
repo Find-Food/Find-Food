@@ -1,0 +1,19 @@
+.bouton-choix{
+	border:10px solid white;
+	background-color: green;
+	border-radius : 5px;
+	font-size :150%;
+	color: white;
+	cursor: pointer;
+}
+body
+{
+    background: url('http://ebolavir.blog.lemonde.fr/files/2014/10/IMG_5613_parking_vide.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.btn-perso {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
