@@ -30,7 +30,11 @@ mixpanel.init("389818257272049c06ce8a38bf6801d6");</script><!-- end Mixpanel -->
     $email: document.getElementById("emailClient").value ,    // only special properties need the $
     $type : "Client"
   });
+  mixpanel.track("Email_save",{});
  }
+ 
+ //track page load
+  mixpanel.track("Page_Load",{});
  
 </script>
 
