@@ -1,7 +1,6 @@
-#magasin{
-	display:none;
-}
-
-#client{
-	display:none;
+.bouton-choix{
+	border:10px solid green;
+	background-color: green;
+	border-radius : 5px;
+	font-size :80px;
 }
