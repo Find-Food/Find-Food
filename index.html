@@ -22,14 +22,14 @@
 for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
 mixpanel.init("389818257272049c06ce8a38bf6801d6");</script><!-- end Mixpanel -->
     <script type="text/javascript">
- 
-    //track page load
-    mixpanel.track("Page_Accueil_Load",{});
-	 function  sendEmail(){
+ function sendEmail(){
 		 console.log("test");
 		   mixpanel.track("clickEmail",{});
 	  }
  
+    //track page load
+    mixpanel.track("Page_Accueil_Load",{});
+	 
 </script>
 
   
@@ -88,7 +88,7 @@ mixpanel.init("389818257272049c06ce8a38bf6801d6");</script><!-- end Mixpanel -->
                 </a>
             </li>
              <li>
-                <a onclick = "sendEmail()" href="mailto:clement.romanet@master-developpement-logiciel.fr?&subject=J'aime Find food !&body=J'ai%20ador%C3%A9%20l'id%C3%A9e%20que%20votre%20projet%20propose,%20j'esp%C3%A8re%20qu'il%20arrivera%20vite%20!"> 
+                <a href="mailto:clement.romanet@master-developpement-logiciel.fr?&subject=J'aime Find food !&body=J'ai%20ador%C3%A9%20l'id%C3%A9e%20que%20votre%20projet%20propose,%20j'esp%C3%A8re%20qu'il%20arrivera%20vite%20!" onClick = "sendEmail();"> 
                     <i class="fa fa-envelope-o"></i>
                     Email
                 </a>
